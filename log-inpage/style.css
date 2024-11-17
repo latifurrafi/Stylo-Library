@@ -115,13 +115,6 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-    .wrapper {
-        width: 80%;
-        padding: 25px;
-    }
-}
-
 body::before {
     content: "";
     position: absolute;
@@ -131,4 +124,11 @@ body::before {
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
     z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 80%;
+        padding: 25px;
+    }
 }
